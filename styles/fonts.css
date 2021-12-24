@@ -17,7 +17,7 @@
     local("Inter"),
     url("Inter-Bold.woff2") format("woff2"),
     url("Inter-Bold.woff") format("woff");
-    font-weight: Bold;
+    font-weight: bold;
     font-weight: 700;
     font-style:  normal;
     }
@@ -30,4 +30,4 @@
         url("Inter-Black.woff") format("woff");
         font-weight: 900;
         font-style:  normal;
-        }
+    }

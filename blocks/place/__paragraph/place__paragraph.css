@@ -3,7 +3,7 @@
 .place__paragraph {
     max-width: 484px;
     padding-bottom: 5.375%;
-    line-height: 163%;        
+    line-height: 163%;
     font-size: 18px;
 }
 
@@ -16,11 +16,11 @@
         padding-bottom: 25px;
         font-size: 16px;
     }
-} 
+}
 
 @media screen and (max-width: 320px) {
     .place__paragraph {
         margin: 0 auto;
-        max-width: 288px;  
+        max-width: 288px;
     }
-} 
+}
