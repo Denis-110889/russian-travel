@@ -1,0 +1,30 @@
+/* Cекции - cover ------------------------------------ "Картинка с поездами" ------------------------------------------------------------ */
+
+.cover {
+    position: relative;
+    margin: 0 auto;
+    padding: 20.693% 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        max-width: 1024px;
+        max-height: 640px;
+    }
+} 
+
+@media screen and (max-width: 768px) {
+    .cover {
+        max-width: 768px;
+        max-height: 480px;
+        padding:14.9739% 0;
+    }
+} 
+
+@media screen and (max-width: 320px) {
+    .cover {
+        max-width: 320px;
+        max-height: 200px;
+        padding: 33px 0; 
+    }
+} 
