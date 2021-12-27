@@ -1,14 +1,12 @@
 .cover__title {
     max-width: 560px;
     max-height: 152px;
-    position: relative;
-    margin: 0 auto;
-    margin-bottom: 32px;
-    text-align: center;
+    margin: 0 0 32px;
     font-weight: 900;
     line-height: 106%;
     font-size: 72px;
-    z-index: 20;
+    text-align: center;
+    
 }
 
 /*Запросов конечно много, но достиг 
@@ -30,7 +28,7 @@
     }
 } 
 
-@media screen and (max-width: 535px) {
+@media screen and (max-width: 520px) {
     .cover__title {
         max-width: 300px;
         font-size: 40px;
@@ -44,7 +42,6 @@
     }
 } 
 
-
 @media screen and (max-width: 340px) {
     .cover__title {
         max-width: 288px;
@@ -53,10 +50,10 @@
 
 @media screen and (max-width: 320px) {
     .cover__title {
-        min-width: 287px;
+        max-width: 288px;
         min-height: 70px;
         line-height: 109%;
         font-size: 32px;
         margin-bottom: 16px;
-    }
-} 
+    } 
+}
